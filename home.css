@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.container-body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.link-container {
+  text-align: right;
+}
+.link-container a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Apply styles to the list items */
+li {
+  margin-bottom: 10px; /* Add some spacing between list items */
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Apply styles to the anchor tags */
+li a {
+  text-decoration: none;
+  display: inline-block; /* Ensure each line behaves as a block element */
+  color: #007bff;
+}
+
+p {
+  margin-bottom: 10px; /* Add some spacing between list items */
+}
+
+p a {
+  text-decoration: none;
+  display: inline-block;
+  color: #007bff;
+   /* Ensure each line behaves as a block element */
+}
+.customIndent {
+  margin-left: -15px;
+}
