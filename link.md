@@ -4,7 +4,7 @@
 - [Correlation vs Causation: How to Respond to a Buzzword Bomber](https://sorukumar.medium.com/correlation-vs-causation-how-to-respond-to-a-buzzword-bomber-2a19725ec120)
 - [Should Analytics Report to CTO, CPO, or CFO?](https://towardsdatascience.com/should-analytics-report-to-cto-or-cpo-or-cfo-cddbdc39f962)
 - [Data-Driven vs Data-Informed vs Data-Inspired](https://towardsdatascience.com/data-driven-vs-data-informed-vs-data-inspired-740eaaec6263)
-- [Is Statistics Making Us Stupid?](https://sorukumar.medium.com/is-statistics-making-us-stupid-f922bd2e7e4f)
+<!-- - [Is Statistics Making Us Stupid?](https://sorukumar.medium.com/is-statistics-making-us-stupid-f922bd2e7e4f) -->
 
 ## Product and Growth
 
