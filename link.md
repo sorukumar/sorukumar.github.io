@@ -1,6 +1,4 @@
 
-#
-#
 ## Data
 
 - [The Role of Intuition in Data-Driven Decision Making](https://sorukumar.medium.com/the-role-of-intuition-in-data-driven-decision-making-6cc8824f0589)
