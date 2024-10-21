@@ -1,50 +1,144 @@
+/* Base Styles */
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
 }
-.container-body {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+
+/* Navigation */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 15px 0;
 }
+
+.navbar-brand {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #000;
+}
+
+.nav-link {
+    color: #007AFF;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0056b3;
+}
+
+/* Social Links in Navbar */
 .link-container {
-  text-align: right;
-}
-.link-container a {
-  text-decoration: none;
-  color: #007bff;
-  font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
-/* Apply styles to the list items */
-li {
-  margin-bottom: 10px; /* Add some spacing between list items */
+.link-container .nav-link {
+    margin-left: 15px;
+    font-size: 1.2em;
 }
 
-nav a {
-  text-decoration: none;
-  color: #007bff;
-  font-weight: bold;
+/* Hero Section */
+.hero {
+    background-color: #007AFF;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
 }
 
-/* Apply styles to the anchor tags */
-li a {
-  text-decoration: none;
-  display: inline-block; /* Ensure each line behaves as a block element */
-  color: #007bff;
+.hero h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
-p {
-  margin-bottom: 10px; /* Add some spacing between list items */
+.hero p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-p a {
-  text-decoration: none;
-  display: inline-block;
-  color: #007bff;
-   /* Ensure each line behaves as a block element */
+/* Main Content */
+.container-body {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 8px;
 }
-.customIndent {
-  margin-left: -15px;
+
+section {
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+p, li {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.8;
+}
+
+a {
+    color: #007AFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Explainer Section */
+.explainer {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.explainer p {
+    font-size: 1.3em;
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container-body {
+        padding: 20px;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .explainer p {
+        font-size: 1.1em;
+    }
+
+    .link-container .nav-link {
+        margin-left: 10px;
+        font-size: 1em;
+    }
 }
