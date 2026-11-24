@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | Saurabh Kumar</title>
+    <script>
+        (function () {
+            var match = window.location.pathname.match(/^\/bitcoin-data-labs(\/.*)?$/i);
+            if (match) {
+                var targetPath = match[1] || "/";
+                window.location.replace("https://bitcoindatalabs.org" + targetPath + window.location.search + window.location.hash);
+            }
+        })();
+    </script>
+</head>
+<body>
+    <main style="font-family: system-ui, -apple-system, sans-serif; max-width: 600px; margin: 4rem auto; padding: 0 1rem;">
+        <h1>Page Not Found</h1>
+        <p>If you were looking for <strong>Bitcoin Data Labs</strong>, it has moved to <a href="https://bitcoindatalabs.org/">https://bitcoindatalabs.org/</a>.</p>
+        <p><a href="https://sorukumar.github.io/">Return to sorukumar.github.io</a></p>
+    </main>
+</body>
+</html>
